@@ -150,7 +150,7 @@ body {
 
 .page {
   position: relative;
-  height: 45rem;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,18 +293,6 @@ body {
   font-size: 0.625rem;
   font-weight: 500;
   color: #6B7082;
-}
-
-@media (max-width: 374.98px) {
-  .page {
-    height: 30rem;
-  }
-}
-
-@media (max-width: 47.99875em) {
-  .page {
-    height: 41.6875rem;
-  }
 }
 
 @media (max-width: 29.99875em) {
